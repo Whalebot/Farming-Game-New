@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a707acbc95cc424b8363c0fb3e72115, type: 3}
+  m_Name: Player SO
+  m_EditorClassIdentifier: 
+  defaultSprite: {fileID: 21300000, guid: 675ffd6370bb5cb4e88616024d9368b0, type: 3}
+  happySprite: {fileID: 21300000, guid: 8cca67d3ec6a2e64d9ef4a8109c50b9e, type: 3}
+  blushSprite: {fileID: 21300000, guid: df694fc6b5f58fb4bbfc2281c75e8180, type: 3}
+  angrySprite: {fileID: 21300000, guid: 5bf5b6a63585e4a428b1404ade16770d, type: 3}
+  smugSprite: {fileID: 21300000, guid: 56f798c1b8e6e1b4dadb54c945c8fe20, type: 3}
+  likedItems: []
+  hatedItems: []

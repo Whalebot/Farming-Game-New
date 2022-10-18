@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b877b2a0830074469b7e90c4ef1d5f8, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  ID: 101
+  sprite: {fileID: 21300000, guid: 4f8e99f3eb2702444aadd10318d1da2a, type: 3}
+  title: Wood
+  quantityLimit: 999
+  baseValue: 1
+  type: 0
+  found: 0
+  description: Wood is used to make most objects.
+  gameObject: {fileID: 100000, guid: 3f90ab08b7280c444a66b8e6744e59ca, type: 3}
+  equipment: 0
+  equipmentSO: {fileID: 11400000, guid: ac639feb3b6b17f40bbe109b54028b30, type: 2}
+  itemUsage: 0
+  plant: {fileID: 1604026268619852978, guid: 8839d34d4eada534d85052bbfe1baac0, type: 3}
+  eventScript:
+    eventType: 1
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}

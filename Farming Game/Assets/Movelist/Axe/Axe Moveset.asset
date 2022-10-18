@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819a88dbdfbfa544bb75944da6277c9b, type: 3}
+  m_Name: Axe Moveset
+  m_EditorClassIdentifier: 
+  R1: {fileID: 11400000, guid: c5891c04ddea02d46a9177b71d144a21, type: 2}
+  runningAttack: {fileID: 11400000, guid: c5891c04ddea02d46a9177b71d144a21, type: 2}
+  lightCombo: {fileID: 11400000, guid: 9f0a3ec1567b3e5439faaf60fb8b2ec9, type: 2}
+  heavyCombo: {fileID: 11400000, guid: 7cd2647b356c61e4b9193d2fa07fae51, type: 2}
+  combos:
+  - {fileID: 11400000, guid: d0f9ecbc30f99d840831a7730f92fd1b, type: 2}
+  - {fileID: 11400000, guid: bfef968dc0bedab4f89732673a91a770, type: 2}
+  - {fileID: 11400000, guid: 5f94e7f10b93d9d429917ff9591cc0c9, type: 2}
+  - {fileID: 11400000, guid: fd68142ab2b9f2147beddd647ba37e1b, type: 2}

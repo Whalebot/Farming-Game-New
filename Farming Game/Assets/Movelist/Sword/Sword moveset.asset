@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819a88dbdfbfa544bb75944da6277c9b, type: 3}
+  m_Name: Sword moveset
+  m_EditorClassIdentifier: 
+  dodge: {fileID: 11400000, guid: aec164d42652c9742a05a93bdc084fd9, type: 2}
+  dashAttack: {fileID: 11400000, guid: 5a180a2b8c691f1469a0ea3adbd1faa5, type: 2}
+  airDashAttack: {fileID: 11400000, guid: 5a180a2b8c691f1469a0ea3adbd1faa5, type: 2}
+  runningLight: {fileID: 11400000, guid: 5a180a2b8c691f1469a0ea3adbd1faa5, type: 2}
+  runningHeavy: {fileID: 11400000, guid: 25dccc1be4a0daa4e8e3c7a4075b943d, type: 2}
+  lightCombo: {fileID: 11400000, guid: 34d58fa72d0aa794b9e15f0407b2697b, type: 2}
+  heavyCombo: {fileID: 11400000, guid: 10e67dc37d8e60a47aa76e4f1ab5fc26, type: 2}
+  airLightCombo: {fileID: 11400000, guid: 3b92ef21345a6fb46920a33b60764fd2, type: 2}
+  airHeavyCombo: {fileID: 11400000, guid: 84922c32ec47d9542970023cbdd4073f, type: 2}
+  combos:
+  - {fileID: 11400000, guid: d0f9ecbc30f99d840831a7730f92fd1b, type: 2}
+  - {fileID: 11400000, guid: bfef968dc0bedab4f89732673a91a770, type: 2}
+  - {fileID: 11400000, guid: 5f94e7f10b93d9d429917ff9591cc0c9, type: 2}
+  - {fileID: 11400000, guid: fd68142ab2b9f2147beddd647ba37e1b, type: 2}
+  extra: {fileID: 0}

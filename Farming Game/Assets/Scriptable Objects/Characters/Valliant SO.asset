@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a707acbc95cc424b8363c0fb3e72115, type: 3}
+  m_Name: Valliant SO
+  m_EditorClassIdentifier: 
+  defaultSprite: {fileID: 21300000, guid: 9e7b451c175239643840b7c9f45abfa8, type: 3}
+  happySprite: {fileID: 21300000, guid: 9e7b451c175239643840b7c9f45abfa8, type: 3}
+  blushSprite: {fileID: 21300000, guid: 9e7b451c175239643840b7c9f45abfa8, type: 3}
+  angrySprite: {fileID: 21300000, guid: 555fcc1dd7dd71545827014145ce7713, type: 3}
+  smugSprite: {fileID: 21300000, guid: caf1ba4e8ff89954c9545318794754a2, type: 3}
+  likedItems: []
+  hatedItems: []

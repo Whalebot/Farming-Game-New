@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4100994463d4d64897e136a618109ef, type: 3}
+  m_Name: 02 - Family
+  m_EditorClassIdentifier: 
+  dialogues:
+  - character: 2
+    expression: 0
+    highlight: 1
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: I was sent here by my family. They wanted me to accomplish something.
+      Anything.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: Oh that sounds rough. Well the soil around here is very fertile.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: If you wanted to, you could perhaps try to start a farm?
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: There were some farming tools lying around, did you pick them up?
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: Here, I have some turnip seeds you can start with.
+    eventScripts:
+    - eventType: 4
+      eventDialogue: {fileID: 11400000, guid: d8084eaf7c935dc4fa5b5d05b3fa9a21, type: 2}
+      items: []
+      statTypes: []
+      triggerName: 
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    - eventType: 3
+      eventDialogue: {fileID: 0}
+      items:
+      - SO: {fileID: 11400000, guid: 2d68c0419056a4449a9a28a1e7b9122d, type: 2}
+        quantity: 5
+      statTypes: []
+      triggerName: 
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    dialogueOptions: []

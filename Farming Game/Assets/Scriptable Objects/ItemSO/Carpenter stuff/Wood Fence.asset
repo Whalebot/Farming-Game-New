@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b877b2a0830074469b7e90c4ef1d5f8, type: 3}
+  m_Name: Wood Fence
+  m_EditorClassIdentifier: 
+  ID: 304
+  sprite: {fileID: 21300000, guid: 95577bf997c24f5478e3a4ee4da20d50, type: 3}
+  title: Wood Fence
+  quantityLimit: 999
+  baseValue: 5
+  type: 4
+  found: 0
+  description: 
+  gameObject: {fileID: 7956138261114082085, guid: 81d7cfb0b66926f4ebe845b7b62238c4,
+    type: 3}
+  equipment: 0
+  equipmentSO: {fileID: 0}
+  itemUsage: 3
+  plant: {fileID: 7956138261114082085, guid: 81d7cfb0b66926f4ebe845b7b62238c4, type: 3}
+  eventScript:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}

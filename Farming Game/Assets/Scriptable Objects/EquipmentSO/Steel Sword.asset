@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c5e7b1a90a9ce40a79d0c5c191cc93, type: 3}
+  m_Name: Steel Sword
+  m_EditorClassIdentifier: 
+  ID: 2010
+  sprite: {fileID: 0}
+  title: Steel Sword
+  quantityLimit: 1
+  ageLimit: 0
+  baseValue: 200
+  type: 0
+  found: 0
+  description: A sword made of steel
+  gameObject: {fileID: 0}
+  itemUsage: 0
+  plant: {fileID: 0}
+  noSoil: 0
+  eventScript:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  equipmentType: 0
+  controller: {fileID: 22100000, guid: ec326c38cf3fc534f84d5e7cafc4ee66, type: 2}
+  moveset: {fileID: 11400000, guid: ebd942dc5391aba44acf652f1054979d, type: 2}
+  attack: 15
+  damageMultiplier: 1
+  attackSpeedMultiplier: 1

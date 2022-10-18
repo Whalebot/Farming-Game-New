@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c5e7b1a90a9ce40a79d0c5c191cc93, type: 3}
+  m_Name: Unarmed
+  m_EditorClassIdentifier: 
+  ID: 999
+  sprite: {fileID: 0}
+  title: 
+  quantityLimit: 0
+  ageLimit: 0
+  baseValue: 0
+  type: 0
+  found: 0
+  description: 
+  gameObject: {fileID: 0}
+  itemUsage: 0
+  plant: {fileID: 0}
+  noSoil: 0
+  eventScript:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  equipmentType: 0
+  controller: {fileID: 22100000, guid: 978f07f6d18847040b7ee0d04608a6a5, type: 2}
+  moveset: {fileID: 11400000, guid: 431e76bdb06196141bf9510aa75c2353, type: 2}
+  attack: 1
+  damageMultiplier: 1
+  attackSpeedMultiplier: 1

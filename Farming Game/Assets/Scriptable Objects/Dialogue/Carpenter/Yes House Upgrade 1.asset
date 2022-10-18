@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4100994463d4d64897e136a618109ef, type: 3}
+  m_Name: Yes House Upgrade 1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - character: 0
+    expression: 0
+    highlight: 1
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: Yes!
+    eventScripts:
+    - eventType: 6
+      eventDialogue: {fileID: 0}
+      items: []
+      statTypes: []
+      triggerName: 
+      skill: {fileID: 0}
+      goldCost: 1000
+      requiredItems:
+      - SO: {fileID: 11400000, guid: 0c4fa8b3d2ab7d148958f524589f9b75, type: 2}
+        quantity: 40
+      - SO: {fileID: 11400000, guid: 17652d52bacfb2849a0a88269cb4f685, type: 2}
+        quantity: 20
+      - SO: {fileID: 11400000, guid: d94d0f39c1b6004459f1cc9fa45607eb, type: 2}
+        quantity: 5
+      reward: {fileID: 11400000, guid: 81ee9db19529a184a944aeb5f009ca48, type: 2}
+      fail: {fileID: 11400000, guid: 683c1e6f9450da94cadb85a38ee4605b, type: 2}
+      tutorial: {fileID: 0}
+    dialogueOptions: []

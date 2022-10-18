@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4100994463d4d64897e136a618109ef, type: 3}
+  m_Name: Valliant combat A1_1_1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - character: 3
+    expression: 0
+    highlight: 1
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: Yes, I live right next to Lecia.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 3
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: Alright, I will see you there.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 3
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: Best of luck with whatever you're doing now.
+    eventScripts:
+    - eventType: 0
+      eventDialogue: {fileID: 0}
+      items: []
+      statTypes: []
+      triggerName: vaillantUnlock
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    - eventType: 0
+      eventDialogue: {fileID: 0}
+      items: []
+      statTypes: []
+      triggerName: vaillantTriggerStep
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    dialogueOptions: []

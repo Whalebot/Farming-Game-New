@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c5e7b1a90a9ce40a79d0c5c191cc93, type: 3}
+  m_Name: Watering Can
+  m_EditorClassIdentifier: 
+  ID: 1001
+  sprite: {fileID: 21300000, guid: 08a576f1bab01334e9f74c38626c5022, type: 3}
+  title: Watering can
+  quantityLimit: 1
+  ageLimit: 0
+  baseValue: 50
+  type: 0
+  found: 0
+  description: 'Old watering can. It never seems to run out of water.
+
+
+    Can be
+    used for watering plants.'
+  gameObject: {fileID: 2150760480739335302, guid: 6bff13bf218354e4da41b1ba35452935,
+    type: 3}
+  itemUsage: 0
+  plant: {fileID: 0}
+  noSoil: 0
+  eventScript:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  equipmentType: 0
+  controller: {fileID: 22100000, guid: f9df29a73d6df36498714d74f9999ec2, type: 2}
+  moveset: {fileID: 11400000, guid: 6b8bf86750a0a104bab016ece31ab40f, type: 2}
+  attack: 1
+  damageMultiplier: 1
+  attackSpeedMultiplier: 1

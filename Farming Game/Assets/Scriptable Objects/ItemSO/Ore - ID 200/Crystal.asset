@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b877b2a0830074469b7e90c4ef1d5f8, type: 3}
+  m_Name: Crystal
+  m_EditorClassIdentifier: 
+  ID: 202
+  sprite: {fileID: 21300000, guid: 2293cd692839e2c43804cb5934ebb796, type: 3}
+  title: Crystal
+  quantityLimit: 999
+  baseValue: 50
+  type: 1
+  found: 0
+  description: 'Transparent crystal found in mines. Harder than metal but very brittle. '
+  gameObject: {fileID: 100000, guid: 9045f4b16975fa341b6b96270aeb4c69, type: 3}
+  equipment: 0
+  equipmentSO: {fileID: 11400000, guid: ac639feb3b6b17f40bbe109b54028b30, type: 2}
+  itemUsage: 0
+  plant: {fileID: 1604026268619852978, guid: 8839d34d4eada534d85052bbfe1baac0, type: 3}
+  eventScript:
+    eventType: 1
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}

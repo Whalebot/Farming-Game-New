@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04b855c4ca094a4dbdf795ddac8fd76, type: 3}
+  m_Name: Axe Heavy Combo
+  m_EditorClassIdentifier: 
+  moves:
+  - {fileID: 11400000, guid: 24a46e9a3107c49488a097b4b08d84d8, type: 2}
+  - {fileID: 11400000, guid: 67047ec7fbc935a4484ddb83f40f0b79, type: 2}

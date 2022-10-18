@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819a88dbdfbfa544bb75944da6277c9b, type: 3}
+  m_Name: Hammer MOVESET
+  m_EditorClassIdentifier: 
+  R1: {fileID: 11400000, guid: 742ec6fc9b732064ca89c563abab060e, type: 2}
+  runningAttack: {fileID: 11400000, guid: 742ec6fc9b732064ca89c563abab060e, type: 2}
+  lightCombo: {fileID: 11400000, guid: 0e17f64dc2bb3ce489ab03b6894c9b53, type: 2}
+  heavyCombo: {fileID: 11400000, guid: 54fe4480f597aa14bb35024a88ad1248, type: 2}
+  combos:
+  - {fileID: 11400000, guid: d0f9ecbc30f99d840831a7730f92fd1b, type: 2}
+  - {fileID: 11400000, guid: bfef968dc0bedab4f89732673a91a770, type: 2}
+  - {fileID: 11400000, guid: 5f94e7f10b93d9d429917ff9591cc0c9, type: 2}
+  - {fileID: 11400000, guid: fd68142ab2b9f2147beddd647ba37e1b, type: 2}

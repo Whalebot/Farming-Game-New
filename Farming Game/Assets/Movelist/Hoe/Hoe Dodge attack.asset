@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c0fd4a0e2b92c24ab826475cf4d7acd, type: 3}
+  m_Name: Hoe Dodge attack
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 3177392228787048669, guid: 9d8c6afc42160de48816023552fdc1c5,
+    type: 3}
+  animationID: 6
+  icon: {fileID: 0}
+  staminaCost: 20
+  fatigue: 2
+  firstStartupFrame: 10
+  lastActiveFrame: 14
+  totalMoveDuration: 14
+  firstGatlingFrame: 15
+  recoveryFrames: 0
+  attacks:
+  - attackLevel: 0
+    attackType: 0
+    hitbox: {fileID: 0}
+    damage: 7
+    stun: 30
+    hitstop: 5
+    poiseBreak: 0
+    startupFrame: 10
+    activeFrames: 5
+    gatlingFrames: 5
+    groundHitProperty:
+      pushback: {x: 0, y: 0, z: 0}
+      hitState: 0
+    airHitProperty:
+      pushback: {x: 0, y: 0, z: 0}
+      hitState: 0
+    blockProperty:
+      pushback: {x: 0, y: 0, z: 0}
+      hitState: 0
+    hitID: 0
+  type: 0
+  damageType: 0
+  slashValue: 90
+  thrustValue: 0
+  bluntValue: 0
+  chopValue: 10
+  trainedSkills:
+  - skill: {fileID: 11400000, guid: 9090b047275b4b84090eceefb66d397b, type: 2}
+    experience: 5
+  screenShake: []
+  slowMotionDuration: 0.01
+  startupParticle: 0
+  vfx: []
+  sfx: []
+  hitFX: {fileID: 0}
+  blockFX: {fileID: 0}
+  counterhitFX: {fileID: 0}
+  hitSFX: {fileID: 0}
+  blockSFX: {fileID: 0}
+  counterhitSFX: {fileID: 0}
+  verticalRotation: 0
+  particleID: 0
+  holdAttack: 0
+  autoAim: 0
+  tracking: 0
+  armor: 0
+  homing: 0
+  fullCancelable: 0
+  iFrames: 0
+  resetGatling: 0
+  targetComboMoves: []
+  gatlingMoves: []
+  gatlingCancelOnBlock: 1
+  gatlingCancelOnHit: 1
+  jumpCancelOnBlock: 0
+  jumpCancelOnHit: 1
+  specialCancelOnBlock: 1
+  specialCancelOnHit: 1
+  noClip: 0
+  noClipStart: 1
+  noClipDuration: 0
+  invincible: 0
+  invincibleStart: 1
+  invincibleDuration: 0
+  projectileInvul: 0
+  projectileInvulStart: 1
+  projectileInvulDuration: 0
+  airInvul: 0
+  airInvulStart: 1
+  airInvulDuration: 0
+  aimOnStartup: 0
+  useAirAction: 0
+  landCancel: 0
+  recoverOnlyOnLand: 0
+  landingRecovery: 0
+  m: []
+  overrideVelocity: 1
+  runMomentum: 1

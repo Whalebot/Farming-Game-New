@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b010b664f166eb40841744002db00f2, type: 3}
+  m_Name: Fire bolt
+  m_EditorClassIdentifier: 
+  type: 0
+  title: Fire Bolt
+  sprite: {fileID: 21300000, guid: 03281c94f9924fa47a72404b965890f6, type: 3}
+  move: {fileID: 11400000, guid: a499049da707fdd4fbcd5e180b4dd9bb, type: 2}
+  move2: {fileID: 11400000, guid: 15da9617698a600498a171764f4f99d2, type: 2}
+  move3: {fileID: 11400000, guid: 15da9617698a600498a171764f4f99d2, type: 2}
+  level: 4
+  experience: 180
+  description: Launches a small projectile of fire. Can burn plants.
+  stats:
+    maxHealth: 0
+    currentHealth: 0
+    maxStamina: 0
+    currentStamina: 0
+    experience: 0
+    level: 1
+    attack: 0
+    magic: 0
+    poise: 0
+    defense: 0
+    bluntDefense: 0
+    slashDefense: 0
+    thrustDefense: 0
+    chopDefense: 0
+    resistance: 0
+    guardBreakModifier: 0
+    movementSpeedModifier: 0
+    attackSpeed: 0
+    baseDamage: 0
+    sizeModifier: 0
+    damageModifierPercentage: 0
+    damageModifierFlat: 0
+    hitStunMultiplier: 0
+    knockbackModifier: 0
+    critChance: 0
+    critMultiplier: 0
+    fireCost: 0
+    waterCost: 0
+    earthCost: 0
+    windCost: 0

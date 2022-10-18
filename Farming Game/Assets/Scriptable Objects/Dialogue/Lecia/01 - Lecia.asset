@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4100994463d4d64897e136a618109ef, type: 3}
+  m_Name: 01 - Lecia
+  m_EditorClassIdentifier: 
+  dialogues:
+  - character: 2
+    expression: 0
+    highlight: 0
+    character2: 0
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: Hello!
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 0
+    character2: 0
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: I don't think I've seen you before.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 0
+    character2: 0
+    expression2: 0
+    SFX: {fileID: 0}
+    sentence: What are you doing out here?
+    eventScripts: []
+    dialogueOptions:
+    - dialogueText: I was sent here by my family.
+      eventScripts:
+      - eventType: 4
+        eventDialogue: {fileID: 11400000, guid: 5a707ff6686cefb4a9161790e0e933ea,
+          type: 2}
+        items: []
+        statTypes: []
+        triggerName: 
+        skill: {fileID: 0}
+        goldCost: 0
+        requiredItems: []
+        reward: {fileID: 0}
+        fail: {fileID: 0}
+        tutorial: {fileID: 0}
+    - dialogueText: I am here on vacation!
+      eventScripts:
+      - eventType: 4
+        eventDialogue: {fileID: 11400000, guid: 43c4457808690dd428765a59c164b3f6,
+          type: 2}
+        items: []
+        statTypes: []
+        triggerName: 
+        skill: {fileID: 0}
+        goldCost: 0
+        requiredItems: []
+        reward: {fileID: 0}
+        fail: {fileID: 0}
+        tutorial: {fileID: 0}

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4100994463d4d64897e136a618109ef, type: 3}
+  m_Name: 02 - Vacation
+  m_EditorClassIdentifier: 
+  dialogues:
+  - character: 2
+    expression: 0
+    highlight: 1
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: I am here on vacation!
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: Oh nice, me too! I am here camping.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: Let me know if you need any help, I've been camping here for a while
+      after all.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 2
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: You can have this as a present!
+    eventScripts:
+    - eventType: 4
+      eventDialogue: {fileID: 11400000, guid: d8084eaf7c935dc4fa5b5d05b3fa9a21, type: 2}
+      items:
+      - SO: {fileID: 11400000, guid: 2d68c0419056a4449a9a28a1e7b9122d, type: 2}
+        quantity: 5
+      statTypes: []
+      triggerName: 
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    - eventType: 3
+      eventDialogue: {fileID: 11400000, guid: d8084eaf7c935dc4fa5b5d05b3fa9a21, type: 2}
+      items:
+      - SO: {fileID: 11400000, guid: 2d68c0419056a4449a9a28a1e7b9122d, type: 2}
+        quantity: 5
+      statTypes: []
+      triggerName: 
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    dialogueOptions: []

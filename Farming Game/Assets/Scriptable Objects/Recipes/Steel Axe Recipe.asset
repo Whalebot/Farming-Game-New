@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4699b66d82fcd4f9d5b9f8c19727cb, type: 3}
+  m_Name: Steel Axe Recipe
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 93bf166911649ad4494820a90663c9a7, type: 2}
+  ingredients:
+  - SO: {fileID: 11400000, guid: d94d0f39c1b6004459f1cc9fa45607eb, type: 2}
+    quantity: 2
+  - SO: {fileID: 11400000, guid: 0c4fa8b3d2ab7d148958f524589f9b75, type: 2}
+    quantity: 1

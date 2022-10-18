@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4100994463d4d64897e136a618109ef, type: 3}
+  m_Name: Valliant combat scripted
+  m_EditorClassIdentifier: 
+  dialogues:
+  - character: 3
+    expression: 0
+    highlight: 2
+    character2: 0
+    expression2: 0
+    sentence: 'Hello young lady.
+
+      I haven''t seen you before.'
+    eventScripts: []
+    dialogueOptions: []
+  - character: 3
+    expression: 0
+    highlight: 2
+    character2: 0
+    expression2: 0
+    sentence: May I ask for your name?
+    eventScripts: []
+    dialogueOptions:
+    - dialogueText: My name is "Traveller"
+      eventScripts:
+      - eventType: 4
+        eventDialogue: {fileID: 11400000, guid: 94d2e42f8cbc95d409f007f2aaaababc,
+          type: 2}
+        items: []
+        statTypes: []
+    - dialogueText: No.
+      eventScripts:
+      - eventType: 4
+        eventDialogue: {fileID: 11400000, guid: 46ffad7f19358894e9b7009812286025,
+          type: 2}
+        items: []
+        statTypes: []

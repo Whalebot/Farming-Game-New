@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c5e7b1a90a9ce40a79d0c5c191cc93, type: 3}
+  m_Name: Hoe SO
+  m_EditorClassIdentifier: 
+  ID: 1000
+  sprite: {fileID: 21300000, guid: b3df9be374c0e604f97348fac1714c47, type: 3}
+  title: Hoe
+  quantityLimit: 1
+  ageLimit: 0
+  baseValue: 50
+  type: 0
+  found: 0
+  description: "Old hoe made of iron. \n\nCan be used to till the ground."
+  gameObject: {fileID: 941915809949979053, guid: 760144219c358e74f878f6ed6dc7568a,
+    type: 3}
+  itemUsage: 0
+  plant: {fileID: 0}
+  noSoil: 0
+  eventScript:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  equipmentType: 0
+  controller: {fileID: 22100000, guid: 01a357d6e6ede3d47886d73e39cb162f, type: 2}
+  moveset: {fileID: 11400000, guid: 25be7ae084882584483ce8601adcd1e6, type: 2}
+  attack: 1
+  damageMultiplier: 1
+  attackSpeedMultiplier: 1

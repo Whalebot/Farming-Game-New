@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3762698487089587140
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom skybox
+  m_Shader: {fileID: -6465566751694194690, guid: 2beaa13453ac5d94792c516c7ffc75ad,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_532D7F59:
+        m_Texture: {fileID: 2800000, guid: dbcf45997e60fd54b94971b37c848164, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_70A40C71:
+        m_Texture: {fileID: 2800000, guid: 4e3dee5cbfd3d664d818126fdddedb30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_87589F8A:
+        m_Texture: {fileID: 2800000, guid: 574508347ff69474aa6420428ccabe6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_93E338A0:
+        m_Texture: {fileID: 2800000, guid: 13e0a40a098fcdc49be8725967cd43a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_18055F7A: 10
+    - Vector1_1C3D5B39: 0
+    - Vector1_21397955: 5
+    - Vector1_382E0AD6: 12.76
+    - Vector1_4FA153C8: 1
+    - Vector1_617E2C3: 1
+    - Vector1_65ED4B83: 11.85
+    - Vector1_78B1B524: 19
+    - Vector1_7F554EAA: 0.14
+    - Vector1_B4059C8E: 0.5
+    - Vector1_C62EEB34: 1
+    - Vector1_C805965: 2.5
+    - Vector1_CA9FEA81: 0.45
+    - Vector1_CE4D42FD: 0.025
+    - Vector1_D09C5DBB: 1
+    - Vector1_DC863CA7: 0.5
+    - Vector1_DF422EF9: 0.86
+    - Vector1_F1CCE9F: 0.0309
+    - Vector1_FE55D8A0: 1.79
+    - Vector1_FFF2D7F7: 1
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _CloudTiling: 0.58
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _GroundExponent: 10
+    - _Metallic: 0
+    - _MoonIntensity: 0.0024794461
+    - _MoonSize: 4
+    - _OcclusionStrength: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SkyExponent: 9.916599
+    - _SkyIntensity: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarIntensity: 0.0020161776
+    - _StarOffset: -19.56
+    - _SunRotVal: -273.4548
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - Color_2B981899: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CloudOffset: {r: -114.2962, g: 318.9926, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GroundColor: {r: 0.24736747, g: 0.22696683, b: 0.22696683, a: 1}
+    - _HorizonColor: {r: 0.9521955, g: 1.0261345, b: 1.014, a: 1}
+    - _SkyColor: {r: 0.1513513, g: 0.3019054, b: 0.78797764, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SunDirection: {r: 0, g: -0.9985469, b: -0.053891063, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b877b2a0830074469b7e90c4ef1d5f8, type: 3}
+  m_Name: Corn Seed
+  m_EditorClassIdentifier: 
+  ID: 6
+  sprite: {fileID: 21300000, guid: f5a66c2dac1026b46a8e5f2a95eb76ce, type: 3}
+  title: Corn Seed
+  quantityLimit: 999
+  ageLimit: 0
+  baseValue: 50
+  type: 3
+  found: 1
+  description: 'Majestic seed of corn.
+
+    <color=#00ffffff>
+
+    Grows between
+    Spring and Autumn.
+
+    Matures in 4 days.
+
+    </color>
+
+
+'
+  gameObject: {fileID: 2293888447578275361, guid: bb96945e73bb5c048bc5ba1c409f7c4b,
+    type: 3}
+  equipment: 0
+  equipmentSO: {fileID: 11400000, guid: ac639feb3b6b17f40bbe109b54028b30, type: 2}
+  itemUsage: 1
+  plant: {fileID: 6168400964966817385, guid: fae641fe21b136c4ca4add48d7881a9c, type: 3}
+  noSoil: 0
+  eventScript:
+    eventType: 1
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    tutorial: {fileID: 0}
+  firstTimeEvents: []
+  used: 0
+  sellEvent:
+    eventType: 0
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    tutorial: {fileID: 0}

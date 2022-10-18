@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c0fd4a0e2b92c24ab826475cf4d7acd, type: 3}
+  m_Name: Axe Dodge attack
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 3177392228787048669, guid: 9d8c6afc42160de48816023552fdc1c5,
+    type: 3}
+  animationID: 6
+  icon: {fileID: 0}
+  staminaCost: 20
+  fatigue: 2
+  damage: 7
+  hitStun: 30
+  knockback: 5
+  poiseBreak: 2
+  damageType: 0
+  slashValue: 0
+  thrustValue: 0
+  bluntValue: 0
+  chopValue: 100
+  trainedSkills:
+  - skill: {fileID: 11400000, guid: 9090b047275b4b84090eceefb66d397b, type: 2}
+    experience: 5
+  shakeMagnitude: 2
+  shakeDuration: 0.1
+  slowMotionDuration: 0.01
+  startupParticle: 0
+  verticalRotation: 0
+  particleID: 0
+  holdAttack: 0
+  autoAim: 0
+  tracking: 0
+  armor: 0
+  homing: 0
+  fullCancelable: 0
+  noClip: 0
+  iFrames: 0
+  overrideVelocity: 1
+  resetVelocityDuringRecovery: 1
+  Momentum: {x: 0, y: 0, z: 5}
+  momentumArray:
+  - {x: 0, y: 0, z: 10}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b877b2a0830074469b7e90c4ef1d5f8, type: 3}
+  m_Name: Tomato
+  m_EditorClassIdentifier: 
+  ID: 3
+  sprite: {fileID: 21300000, guid: 9b0ba6bc1599fe844b982c644d5d1eba, type: 3}
+  title: Tomato
+  quantityLimit: 999
+  ageLimit: 3
+  baseValue: 50
+  type: 2
+  found: 0
+  description: 'Beautiful tomato with a fiery red color.
+
+
+    stats
+
+'
+  gameObject: {fileID: 3474541012032915773, guid: 58d5af10c3e2ce04a9765ed60f988f36,
+    type: 3}
+  equipment: 0
+  equipmentSO: {fileID: 0}
+  itemUsage: 2
+  plant: {fileID: 0}
+  noSoil: 0
+  eventScript:
+    eventType: 1
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes:
+    - type: 0
+      value: 5
+    - type: 1
+      value: 30
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  firstTimeEvents:
+  - eventType: 7
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: 
+    skill: {fileID: 11400000, guid: 22f999cf871074747a985cde20de3bfc, type: 2}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  - eventType: 1
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes:
+    - type: 3
+      value: 10
+    - type: 5
+      value: 10
+    triggerName: 
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}
+  used: 0
+  sellEvent:
+    eventType: 0
+    eventDialogue: {fileID: 0}
+    items: []
+    statTypes: []
+    triggerName: tomatoUnlock
+    skill: {fileID: 0}
+    goldCost: 0
+    requiredItems: []
+    reward: {fileID: 0}
+    fail: {fileID: 0}
+    tutorial: {fileID: 0}

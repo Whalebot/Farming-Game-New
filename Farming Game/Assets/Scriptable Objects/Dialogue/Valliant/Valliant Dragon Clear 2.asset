@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4100994463d4d64897e136a618109ef, type: 3}
+  m_Name: Valliant Dragon Clear 2
+  m_EditorClassIdentifier: 
+  dialogues:
+  - character: 3
+    expression: 0
+    highlight: 1
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: No problem~
+    eventScripts: []
+    dialogueOptions: []
+  - character: 3
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: Well, I probably won't ask you to do it again anytime soon.
+    eventScripts: []
+    dialogueOptions: []
+  - character: 3
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: You can have this as a reward in the meanwhile.
+    eventScripts:
+    - eventType: 3
+      eventDialogue: {fileID: 0}
+      items:
+      - SO: {fileID: 11400000, guid: 5251d6af732482b43979991aa5f342a0, type: 2}
+        quantity: 5
+      - SO: {fileID: 11400000, guid: 15868bc3065f3ef48b0e01d79a7951a0, type: 2}
+        quantity: 5
+      statTypes: []
+      triggerName: 
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    dialogueOptions: []
+  - character: 3
+    expression: 0
+    highlight: 2
+    character2: 1
+    expression2: 3
+    SFX: {fileID: 0}
+    sentence: I'm heading off, I'll have new stuff next time you see me.
+    eventScripts:
+    - eventType: 0
+      eventDialogue: {fileID: 0}
+      items: []
+      statTypes: []
+      triggerName: dragonQuest
+      skill: {fileID: 0}
+      goldCost: 0
+      requiredItems: []
+      reward: {fileID: 0}
+      fail: {fileID: 0}
+      tutorial: {fileID: 0}
+    dialogueOptions: []
